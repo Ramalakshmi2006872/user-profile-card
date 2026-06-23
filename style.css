@@ -1,0 +1,51 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background:#f2f2f2;
+}
+
+.card{
+    width:350px;
+    background:#dff3f5;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:15px;
+}
+
+ul{
+    list-style:none;
+    padding:0;
+}
+
+li{
+    margin:5px 0;
+}
+#info
+{
+    margin-top:20px;
+    text-align:left;
+    padding-left:40px;
+    line-height:1.8;
+
+}
+
+button{
+    margin-top:15px;
+    padding:10px 20px;
+    background:blue;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
